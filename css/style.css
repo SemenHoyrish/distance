@@ -459,6 +459,124 @@ body {
     background-position: center;
     background-size: cover;
 }
+.stories-more-link {
+    padding-left: 0;
+}
+.stories-more-text {
+    color: #0050B3;
+}
+.bday {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 16px auto;
+}
+.bday-text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+    margin-left: 8px;
+}
+.bday-link {
+    font-weight: 600;
+    text-decoration: none;
+    color: #0050B3;
+}
+.fanpage {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.fanpage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 16px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.fanpage-title {
+    margin: 0;
+}
+.fanpage-body {
+    display: flex;
+    padding: 16px 16px 22px 16px;
+}
+.fanpage-content {
+    margin-left: 12px;
+}
+.fanpage-content-name {
+    margin-bottom: 4px;
+}
+.fanpage-content-links {
+    display: flex;
+    align-items: center;
+}
+.fanpage-content-links-link {
+    margin-left: 4px;
+}
+.fanpage-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fanpage-footer::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #E8E8E8;
+    margin-bottom: 16px;
+}
+.fanpage-footer-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fanpage-footer-buttons-button {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    margin-left: -1px;
+    padding: 8px 25px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+}
+.fanpage-footer-buttons-button:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.fanpage-footer-buttons-button:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.fanpage-footer-buttons-button:focus {
+    outline: none;
+}
+.fanpage-footer-buttons-button.active {
+    border: 1px solid #1890FF;
+    color: #1890FF;
+    z-index: 10;
+}
+.fanpage-footer-text {
+    text-align: center;
+    margin: 16px 0;
+}
+.fanpage-footer-text-mainText {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #262626;
+    margin: 0 0 4px 0;
+}
+.fanpage-footer-text-otherText {
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+    margin: 0;
+}
 
 @media (max-width: 1250px) {
     .header-block {
