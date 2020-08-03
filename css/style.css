@@ -38,7 +38,8 @@ body {
     outline: none;
 }
 .m-menu .line {
-    width: 100%;
+/*     width: 100%; */
+    width: 32px;
     height: 1px;
     background-color: #fff;
 }
